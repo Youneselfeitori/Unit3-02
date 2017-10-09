@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 110}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A988594F-9F39-4ABD-A78F-65BFDB266491",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Guess a number",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 166}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "guess_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8B9B5403-AD04-4EEC-9826-ABB31E24EC75",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 206}, {80, 35}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Submit",
+          "uuid" : "ED5B50EF-4191-4AEF-AE5B-4F9D4E3E9D0E",
+          "class" : "Button",
+          "name" : "sumbit_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 249}, {156, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1A96BD3A-7B2B-4137-9D26-9F49EAF52512",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
